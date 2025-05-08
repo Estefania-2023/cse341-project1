@@ -1,0 +1,21 @@
+{
+  "name": "cse341-project1",
+  "version": "1.0.0",
+  "description": "My first project for CSE341",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estefania-2023/cse341-project1.git"
+  },
+  "keywords": [],
+  "author": "Estefanía Ortiz",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Estefania-2023/cse341-project1/issues"
+  },
+  "homepage": "https://github.com/Estefania-2023/cse341-project1#readme"
+}
