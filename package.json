@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Estefania-2023/cse341-project1/issues"
   },
-  "homepage": "https://github.com/Estefania-2023/cse341-project1#readme"
+  "homepage": "https://github.com/Estefania-2023/cse341-project1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
