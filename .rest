@@ -1,1 +1,5 @@
+###Get all contacts
 GET https://cse341-project1-8nkv.onrender.com/contacts
+
+###Get a contact by ID. For example:
+GET https://cse341-project1-8nkv.onrender.com/contacts/681d19b1befec23e32debeb6
