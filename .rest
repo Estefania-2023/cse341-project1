@@ -1,5 +1,32 @@
 ###Get all contacts
-GET https://cse341-project1-8nkv.onrender.com/contacts
+GET http://localhost:3000/contacts
 
 ###Get a contact by ID. For example:
-GET https://cse341-project1-8nkv.onrender.com/contacts/681d19b1befec23e32debeb6
+GET http://localhost:3000/contacts/682650dc0164f4d812e3a49b
+
+###Create a new contact
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Rosemary",
+    "lastName": "Smith",
+    "email": "roseS19@gmail.com",
+    "favoriteColor": "Red",
+    "birthday": "23/09/2000"
+}
+
+###Update a contact by ID. For example:
+PUT http://localhost:3000/contacts/682650dc0164f4d812e3a49b HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Juan",
+    "lastName": "Sandoval",
+    "email": "Juan284@gmail.com",
+    "favoriteColor": "Brown",
+    "birthday": "06/10/2000"
+}
+
+###Delete a contact by ID. For example:
+DELETE http://localhost:3000/contacts/682664aeee13b8b8ebcfbb0c HTTP/1.1
