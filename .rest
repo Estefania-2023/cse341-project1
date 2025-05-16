@@ -1,32 +1,32 @@
 ###Get all contacts
-GET http://localhost:3000/contacts
+GET http://cse341-project1-8nkv.onrender.com/contacts
 
 ###Get a contact by ID. For example:
-GET http://localhost:3000/contacts/682650dc0164f4d812e3a49b
+GET http://cse341-project1-8nkv.onrender.com/contacts/682650dc0164f4d812e3a49b
 
 ###Create a new contact
-POST http://localhost:3000/contacts HTTP/1.1
+POST http://cse341-project1-8nkv.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Rosemary",
-    "lastName": "Smith",
-    "email": "roseS19@gmail.com",
-    "favoriteColor": "Red",
-    "birthday": "23/09/2000"
+    "firstName": "Alex",
+    "lastName": "Monson",
+    "email": "Alex564@gmail.com",
+    "favoriteColor": "Cyan",
+    "birthday": "19/05/2000"
 }
 
 ###Update a contact by ID. For example:
-PUT http://localhost:3000/contacts/682650dc0164f4d812e3a49b HTTP/1.1
+PUT http://cse341-project1-8nkv.onrender.com/contacts/682778d0d92c8089017a28e1 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Juan",
-    "lastName": "Sandoval",
-    "email": "Juan284@gmail.com",
-    "favoriteColor": "Brown",
-    "birthday": "06/10/2000"
+    "firstName": "Alex",
+    "lastName": "Smith",
+    "email": "Alex45@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "19/05/2000"
 }
 
 ###Delete a contact by ID. For example:
-DELETE http://localhost:3000/contacts/682664aeee13b8b8ebcfbb0c HTTP/1.1
+DELETE http://cse341-project1-8nkv.onrender.com/contacts/682778d0d92c8089017a28e1 HTTP/1.1
